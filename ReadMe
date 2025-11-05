@@ -1,0 +1,66 @@
+Project Overview
+This project showcases a full-cycle analysis of an e-commerce dataset (Brazilian E-Commerce Public Dataset by Olist from Kaggle). 
+It covers data cleaning, exploration, sales and customer segmentation analysis, visualization, and actionable business insights,
+culminating in an interactive Power BI dashboard.
+
+1. Data Cleaning & Exploration
+
+The first step focused on understanding the dataset and preparing it for analysis.
+Key Steps Performed in Python (Jupyter Notebook / VS Code):
+Handled missing and duplicate values in all tables (orders, customers, items, products, payments, reviews, sellers, geo).
+Standardized column names and data types, especially for timestamps and numeric fields.
+Filled missing values with medians, zero, or default strings as appropriate.
+Explored basic trends, distributions, and dataset statistics to understand sales, product, and customer patterns.
+
+Files & References:
+
+📂 Notebook: 02_EDA_Cleaning.ipynb – includes all Python code for cleaning and exploration
+📂 Dataset Folder: 01_Dataset – raw CSV files
+📂 Cleaned Data Folder: 03_Cleaned_Dataset – cleaned CSVs ready for analysis
+
+2. Customer & Payment Analysis
+
+After cleaning the dataset, I performed detailed business analysis focusing on orders, payments, and customer behavior.
+Analysis Performed:
+Calculated Total Sales and Total Payments using DAX in Power BI measures.
+Segmented orders by status (delivered, canceled, processing) and visualized proportions.
+Explored payment types (credit card, boleto, voucher) and their distribution using Pie Charts.
+Generated KPI cards for key metrics: Total Sales, Total Payments, Total Orders.
+
+Files & References:
+📂 Notebook: 04_Sales_Analysis.ipynb – Python code and Power BI measures for sales KPIs
+📂 Power BI Dashboard: PowerBI_Dashboard/ – screenshots of KPIs and visuals
+
+Product Performance & Top Categories
+
+Next, I focused on analyzing products and categories to find the best-performing items.
+Analysis Performed:
+Computed Total Payment per Product Category.
+Created Top 10 Product Categories by Revenue bar chart using Power BI.
+Visualized product distribution and sales trends across categories and time.
+Identified key product categories driving the majority of revenue.
+
+Files & References:
+📂 Notebook: 05_Product_Analysis.ipynb
+📂 Dashboard Visuals: Include bar charts, stacked charts, and filters for top products
+
+4. Geographic Insights
+To understand regional patterns:
+Mapped customer and seller geolocations using Power BI map visuals.
+Analyzed distribution of orders and sales across cities and states.
+Identified regions with higher sales volume or delivery delays for business decisions.
+
+Files & References:
+📂 Notebook: 06_Geo_Analysis.ipynb
+📂 Power BI Map Visuals: screenshots of geographic distributions
+
+
+Finally, I built a Power BI Dashboard to present all insights in an interactive, business-friendly format.
+Dashboard Pages & Highlights:
+Home / Overview: Quick KPI cards, slicers for filtering by date, payment type, or order status
+Sales Performance: Total Sales, Total Payments, Total Orders with trend line charts
+Product Insights: Top categories, product-level revenue breakdown
+Customer Insights: Order segmentation, payment preferences, loyalty indicators
+Geographic Insights: Maps showing order distribution and sales hotspots
+Executive Summary: Key metrics and insights for business decision-making
+
