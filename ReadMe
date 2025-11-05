@@ -6,7 +6,7 @@ culminating in an interactive Power BI dashboard.
 1. Data Cleaning & Exploration
 
 The first step focused on understanding the dataset and preparing it for analysis.
-Key Steps Performed in Python (Jupyter Notebook / VS Code):
+Key Steps Performed in Python ( VS Code):
 Handled missing and duplicate values in all tables (orders, customers, items, products, payments, reviews, sellers, geo).
 Standardized column names and data types, especially for timestamps and numeric fields.
 Filled missing values with medians, zero, or default strings as appropriate.
